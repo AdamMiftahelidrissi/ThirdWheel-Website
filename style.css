@@ -18,7 +18,7 @@ body {
 
 /* Header Styling */
 header {
-  background: #008080; /* Teal */
+  background: #008080;
   color: white;
   padding: 50px 20px;
   width: 100%;
@@ -68,6 +68,30 @@ h2 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+/* Download Section */
+#download p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.download-icon {
+  width: 180px; /* Set fixed width */
+  height: 60px; /* Set fixed height */
+  object-fit: contain; /* Ensures proper aspect ratio */
+  transition: transform 0.2s ease-in-out;
+}
+
+.download-icon:hover {
+  transform: scale(1.05);
 }
 
 /* Footer */
