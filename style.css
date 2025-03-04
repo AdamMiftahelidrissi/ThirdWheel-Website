@@ -102,3 +102,20 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #008080;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.github-link:hover {
+  background-color: #555;
+}
